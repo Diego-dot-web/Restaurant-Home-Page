@@ -3,6 +3,7 @@ import ContactImage from './contactImage.jpg'
 export function addContact(){
     const container = document.createElement("div")
     container.classList.add("contact");
+    container.classList.add("hidden");
 
     const productImage = new Image()
     productImage.src = ContactImage

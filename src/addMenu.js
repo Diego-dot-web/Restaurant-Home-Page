@@ -3,6 +3,7 @@ import MenuImage from './menuImage.jpg'
 export function addMenu(){
     const container = document.createElement("div")
     container.classList.add("menu");
+    container.classList.add("hidden");
 
     const productImage = new Image()
     productImage.src = MenuImage

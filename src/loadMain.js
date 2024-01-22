@@ -2,7 +2,7 @@ import './style.css';
 import ByeMeow from './byeMeow.jpg';
 
 export function loadMain (){
-    const container = document.querySelector("#content");
+    const container = document.querySelector(".content");
     const productImage = new Image()
     productImage.src = ByeMeow
 

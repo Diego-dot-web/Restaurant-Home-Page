@@ -8,8 +8,9 @@ module.exports = {
         clean: true,
     },
     devtool: 'inline-source-map',
+    mode: 'production',
     devServer: {
-        static: './src',
+        static: './dist',
     },
     module: {
         rules: [

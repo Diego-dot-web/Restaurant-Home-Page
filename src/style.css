@@ -3,7 +3,9 @@
     margin: 0;
 }
 
-#content, .menu, .contact {
+
+
+.content, .menu, .contact {
     height: 100vh;
     display: flex;
     gap: 20px;
@@ -26,3 +28,6 @@ button{
     padding: 10px;
 }
 
+.hidden {
+    display: none;
+}
