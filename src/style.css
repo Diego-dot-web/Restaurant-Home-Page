@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#content, .menu, .contact {
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 165px 20px 165px;
+    background-color: lightsalmon;
+    color: white;
+}
+
+img {
+    width: 300px;
+}
+
+.description{
+    text-align: center;
+}
+
+button{
+    padding: 10px;
+}
+
